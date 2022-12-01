@@ -1,0 +1,26 @@
+how to connnect mongo db with server
+    -mongose library-npm i mongoose
+9.API call-Asynchrouns-to reoslve use promise-(resolve state-.then(),
+                                                -reject state-.catch()
+    status code
+    1xx serise-information
+    2xx-succes
+    3xx-redirection
+    4xx-client error
+    5xx-server error
+10.cors-(cros origin resource sharing)
+  -istall
+
+11-json web token-to auhenticate request
+    -install jsonwebtoken:npm i jsonwebtoken
+    -Import jsonwebtoken i dataservice.js
+    -to generate token when login success-sign()
+    -we have to send the token to client
+    -client will sent token along with request after login
+    -verify token which is avilable in index.js
+      -import json webtoken in index.js
+      -verify the token-verify() before resolving client request
+12. Middleware-special function(req,res,next) 
+      -it can affect request response cycle
+      -Application special Middleware
+      -Router specific Middleware-perticular case
